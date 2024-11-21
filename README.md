@@ -1,5 +1,5 @@
 # Blockchain
-#Understanding Blockchain: A Revolutionary Technology
+Understanding Blockchain: A Revolutionary Technology
 Blockchain, often heralded as one of the most transformative technologies of the 21st century, serves as the foundation for cryptocurrencies like Bitcoin. While its application extends far beyond digital currencies, understanding blockchain begins with an exploration of its structure, operational mechanisms, and the principles that make it secure and trustworthy.
 
 # What is Blockchain?
