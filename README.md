@@ -13,34 +13,34 @@ At its core, blockchain is a distributed ledger technology (DLT) that records tr
 ## How Blockchain Works
 The blockchain process involves several steps:
 
-Transaction Initiation: A user initiates a transaction, such as transferring Bitcoin to another user. This transaction is represented as data.
-Broadcasting to the Network: The transaction is broadcast to a network of nodes (computers).
-Validation by Nodes: Nodes validate the transaction using consensus algorithms, ensuring it complies with the blockchain’s rules.
-Block Creation: Valid transactions are grouped into a block.
-Adding the Block to the Chain: Once validated, the block is added to the blockchain in chronological order.
-Updating the Ledger: The updated blockchain is shared across all nodes in the network.
+  1. Transaction Initiation: A user initiates a transaction, such as transferring Bitcoin to another user. This transaction is represented as data.
+  2. Broadcasting to the Network: The transaction is broadcast to a network of nodes (computers).
+  3. Validation by Nodes: Nodes validate the transaction using consensus algorithms, ensuring it complies with the blockchain’s rules.
+  4. Block Creation: Valid transactions are grouped into a block.
+  5. Adding the Block to the Chain: Once validated, the block is added to the blockchain in chronological order.
+  6. Updating the Ledger: The updated blockchain is shared across all nodes in the network.
 ## Consensus Algorithms: The Backbone of Blockchain
 A consensus algorithm ensures that all nodes in a blockchain network agree on the state of the ledger. This is crucial in a decentralized system where no single authority dictates the ledger's integrity.
 
 Types of Consensus Algorithms:
-Proof of Work (PoW)
-Proof of Stake (PoS)
-Delegated Proof of Stake (DPoS)
-Practical Byzantine Fault Tolerance (PBFT)
+  1. Proof of Work (PoW)
+  2. Proof of Stake (PoS)
+  3. Delegated Proof of Stake (DPoS)
+  4. Practical Byzantine Fault Tolerance (PBFT)
 Bitcoin, the first and most well-known cryptocurrency, uses Proof of Work (PoW).
 
 ## Proof of Work (PoW) in Bitcoin
 Proof of Work is a consensus algorithm where participants, known as miners, compete to solve complex mathematical puzzles. The first miner to solve the puzzle gets the right to add a new block to the blockchain and is rewarded with cryptocurrency.
 
 Steps in the PoW Process:
-Mining: Miners use computational power to solve a cryptographic puzzle. The puzzle involves finding a nonce (a random number) that, when hashed with the block’s data, produces a hash value below a specific target.
-Validation: Once a miner solves the puzzle, the solution is broadcast to the network. Other nodes verify the solution.
-Block Addition: If the solution is valid, the block is added to the blockchain.
-Reward: The miner receives a reward (e.g., Bitcoin) for their efforts.
+  1. Mining: Miners use computational power to solve a cryptographic puzzle. The puzzle involves finding a nonce (a random number) that, when hashed with the block’s data, produces a hash value below a specific target.
+  2. Validation: Once a miner solves the puzzle, the solution is broadcast to the network. Other nodes verify the solution.
+  3. Block Addition: If the solution is valid, the block is added to the blockchain.
+  4. Reward: The miner receives a reward (e.g., Bitcoin) for their efforts.
 Importance of PoW in Securing Bitcoin:
-Resistance to Attacks: PoW requires significant computational resources, making it expensive and impractical for malicious actors to alter the blockchain.
-Decentralization: By involving thousands of miners worldwide, PoW ensures no single entity controls the network.
-Immutability: Altering a block would require re-mining all subsequent blocks, an effort so resource-intensive that it becomes infeasible.
+  1. Resistance to Attacks: PoW requires significant computational resources, making it expensive and impractical for malicious actors to alter the blockchain.
+  2. Decentralization: By involving thousands of miners worldwide, PoW ensures no single entity controls the network.
+  3. Immutability: Altering a block would require re-mining all subsequent blocks, an effort so resource-intensive that it becomes infeasible.
 ## Blockchain Trilemma
 The blockchain trilemma, coined by Ethereum co-founder Vitalik Buterin, refers to the challenge of achieving three core attributes of blockchain simultaneously:
 
