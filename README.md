@@ -26,17 +26,17 @@ A consensus algorithm ensures that all nodes in a blockchain network agree on th
   2. Proof of Stake (PoS)
   3. Delegated Proof of Stake (DPoS)
   4. Practical Byzantine Fault Tolerance (PBFT)
-Bitcoin, the first and most well-known cryptocurrency, uses  *Proof of Work (PoW)*.
+Bitcoin, the first and most well-known cryptocurrency, uses  **Proof of Work (PoW)**.
 
 ## Proof of Work (PoW) in Bitcoin
 Proof of Work is a consensus algorithm where participants, known as miners, compete to solve complex mathematical puzzles. The first miner to solve the puzzle gets the right to add a new block to the blockchain and is rewarded with cryptocurrency.
 
-Steps in the PoW Process:
+### Steps in the PoW Process:
   1. Mining: Miners use computational power to solve a cryptographic puzzle. The puzzle involves finding a nonce (a random number) that, when hashed with the block’s data, produces a hash value below a specific target.
   2. Validation: Once a miner solves the puzzle, the solution is broadcast to the network. Other nodes verify the solution.
   3. Block Addition: If the solution is valid, the block is added to the blockchain.
   4. Reward: The miner receives a reward (e.g., Bitcoin) for their efforts.
-Importance of PoW in Securing Bitcoin:
+### Importance of PoW in Securing Bitcoin:
   1. Resistance to Attacks: PoW requires significant computational resources, making it expensive and impractical for malicious actors to alter the blockchain.
   2. Decentralization: By involving thousands of miners worldwide, PoW ensures no single entity controls the network.
   3. Immutability: Altering a block would require re-mining all subsequent blocks, an effort so resource-intensive that it becomes infeasible.
@@ -46,20 +46,20 @@ The blockchain trilemma, coined by Ethereum co-founder Vitalik Buterin, refers t
   1. Decentralization: A system where no single entity has control.
   2. Scalability: The ability to handle a large number of transactions quickly.
   3. Security: Protection against attacks and vulnerabilities.
-Trade-offs in the Trilemma:
+### Trade-offs in the Trilemma:
   - Decentralization vs. Scalability: A highly decentralized network may struggle to scale because every node must process every transaction.
   - Scalability vs. Security: Increasing transaction throughput might weaken the network’s defenses against attacks.
   - Security vs. Decentralization: Enhancing security may involve centralized mechanisms, compromising decentralization.
-Bitcoin prioritizes security and decentralization over scalability, which is evident in its limited transaction throughput (~7 transactions per second). This is why Bitcoin has faced criticism for slow transaction speeds compared to other blockchain systems.
+Bitcoin prioritizes **security** and **decentralization** over **scalability**, which is evident in its limited transaction throughput (~7 transactions per second). This is why Bitcoin has faced criticism for slow transaction speeds compared to other blockchain systems.
 
-Solutions to the Trilemma:
+### Solutions to the Trilemma:
   1. Layer 2 Solutions: Technologies like the Lightning Network enable off-chain transactions to enhance scalability while maintaining Bitcoin’s security.
   2. Sharding: Involves splitting the blockchain into smaller parts, or shards, each handling a subset of transactions.
   3. Hybrid Consensus Mechanisms: Combining different consensus algorithms to balance the trade-offs.
 ## Why Blockchain Matters
 Blockchain's significance lies in its ability to provide a secure, transparent, and decentralized way of recording and verifying transactions. While its first application was in cryptocurrencies, its potential spans industries like supply chain, healthcare, finance, and more.
 
-Real-World Applications:
+### Real-World Applications:
   1. Cryptocurrencies: Bitcoin and Ethereum enable decentralized financial transactions.
   2. Smart Contracts: Automated contracts execute predefined conditions without intermediaries.
   3. Supply Chain Management: Blockchain ensures transparency and traceability of goods.
