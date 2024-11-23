@@ -6,10 +6,10 @@ Blockchain, often heralded as one of the most transformative technologies of the
 At its core, blockchain is a distributed ledger technology (DLT) that records transactions across multiple computers in a network. Each transaction is stored in a "block," and these blocks are cryptographically linked to form a "chain." Once a block is added to the blockchain, it becomes immutable, ensuring that the data cannot be altered retroactively without the consensus of the network participants.
 
 ## Key Features of Blockchain:
-Decentralization: Unlike traditional databases controlled by a central authority, a blockchain operates on a peer-to-peer (P2P) network. This removes the need for intermediaries.
-Transparency: All transactions on a public blockchain are visible to participants, promoting accountability.
-Immutability: Data stored on a blockchain cannot be changed once validated, ensuring security and trust.
-Security: Cryptographic methods secure the data, making it tamper-proof.
+1. Decentralization: Unlike traditional databases controlled by a central authority, a blockchain operates on a peer-to-peer (P2P) network. This removes the need for intermediaries.
+2. Transparency: All transactions on a public blockchain are visible to participants, promoting accountability.
+3. Immutability: Data stored on a blockchain cannot be changed once validated, ensuring security and trust.
+4. Security: Cryptographic methods secure the data, making it tamper-proof.
 ## How Blockchain Works
 The blockchain process involves several steps:
 
