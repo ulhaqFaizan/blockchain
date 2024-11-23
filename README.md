@@ -4,7 +4,7 @@ Blockchain, often heralded as one of the most transformative technologies of the
 ## What is Blockchain?
 At its core, blockchain is a distributed ledger technology (DLT) that records transactions across multiple computers in a network. Each transaction is stored in a "block," and these blocks are cryptographically linked to form a "chain." Once a block is added to the blockchain, it becomes immutable, ensuring that the data cannot be altered retroactively without the consensus of the network participants.
 
-## Key Features of Blockchain:
+### Key Features of Blockchain:
 1. Decentralization: Unlike traditional databases controlled by a central authority, a blockchain operates on a peer-to-peer (P2P) network. This removes the need for intermediaries.
 2. Transparency: All transactions on a public blockchain are visible to participants, promoting accountability.
 3. Immutability: Data stored on a blockchain cannot be changed once validated, ensuring security and trust.
@@ -21,12 +21,12 @@ The blockchain process involves several steps:
 ## Consensus Algorithms: The Backbone of Blockchain
 A consensus algorithm ensures that all nodes in a blockchain network agree on the state of the ledger. This is crucial in a decentralized system where no single authority dictates the ledger's integrity.
 
-Types of Consensus Algorithms:
+### Types of Consensus Algorithms:
   1. Proof of Work (PoW)
   2. Proof of Stake (PoS)
   3. Delegated Proof of Stake (DPoS)
   4. Practical Byzantine Fault Tolerance (PBFT)
-Bitcoin, the first and most well-known cryptocurrency, uses Proof of Work (PoW).
+Bitcoin, the first and most well-known cryptocurrency, uses ### Proof of Work (PoW).
 
 ## Proof of Work (PoW) in Bitcoin
 Proof of Work is a consensus algorithm where participants, known as miners, compete to solve complex mathematical puzzles. The first miner to solve the puzzle gets the right to add a new block to the blockchain and is rewarded with cryptocurrency.
