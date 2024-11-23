@@ -25,7 +25,7 @@ A consensus algorithm ensures that all nodes in a blockchain network agree on th
   1. Proof of Work (PoW)
   2. Proof of Stake (PoS)
   3. Delegated Proof of Stake (DPoS)
-  4. Practical Byzantine Fault Tolerance (PBFT)
+  4. Practical Byzantine Fault Tolerance (PBFT)  
 Bitcoin, the first and most well-known cryptocurrency, uses  **Proof of Work (PoW)**.
 
 ## Proof of Work (PoW) in Bitcoin
@@ -49,7 +49,7 @@ The blockchain trilemma, coined by Ethereum co-founder Vitalik Buterin, refers t
 ### Trade-offs in the Trilemma:
   - Decentralization vs. Scalability: A highly decentralized network may struggle to scale because every node must process every transaction.
   - Scalability vs. Security: Increasing transaction throughput might weaken the network’s defenses against attacks.
-  - Security vs. Decentralization: Enhancing security may involve centralized mechanisms, compromising decentralization.
+  - Security vs. Decentralization: Enhancing security may involve centralized mechanisms, compromising decentralization.  
 Bitcoin prioritizes **security** and **decentralization** over **scalability**, which is evident in its limited transaction throughput (~7 transactions per second). This is why Bitcoin has faced criticism for slow transaction speeds compared to other blockchain systems.
 
 ### Solutions to the Trilemma:
