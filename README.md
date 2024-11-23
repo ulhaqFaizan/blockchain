@@ -26,7 +26,7 @@ A consensus algorithm ensures that all nodes in a blockchain network agree on th
   2. Proof of Stake (PoS)
   3. Delegated Proof of Stake (DPoS)
   4. Practical Byzantine Fault Tolerance (PBFT)
-Bitcoin, the first and most well-known cryptocurrency, uses ### Proof of Work (PoW).
+Bitcoin, the first and most well-known cryptocurrency, uses  *Proof of Work (PoW)*.
 
 ## Proof of Work (PoW) in Bitcoin
 Proof of Work is a consensus algorithm where participants, known as miners, compete to solve complex mathematical puzzles. The first miner to solve the puzzle gets the right to add a new block to the blockchain and is rewarded with cryptocurrency.
